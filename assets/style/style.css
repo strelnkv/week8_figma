@@ -14,7 +14,7 @@ body {
   padding-right: 3%;
 }
 .main {
-  background-image: url(./assets/images/pic.png);
+  background-image: url(../images/pic.png);
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: contain;
