@@ -91,3 +91,52 @@ h1 {
 .footer__links__link a {
   text-decoration: none;
 }
+.main__opport {
+  padding: 0 10%;
+}
+.main__opport__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main__article {
+  width: 24vw;
+  margin-bottom: 3vh;
+}
+.main__article p {
+  font-family: "Roboto Slab", serif;
+}
+.main__form {
+  background-color: #ec615b;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 0 0 0.5em;
+  color: white;
+}
+.main__article-email {
+  width: 90%;
+  border: none;
+  height: 15%;
+  margin-bottom: 7%;
+}
+.main__article-button {
+  background: #5222d0;
+  border-radius: 100px;
+  color: white;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  height: 3em;
+  width: 9em;
+  margin: 0 auto 2em auto;
+}
+.main__article img {
+  width: 24vw;
+}
+.main__article,
+.main__form {
+  width: 24vw;
+}
